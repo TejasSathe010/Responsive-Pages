@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Typography */
+
+
+
+/* Layout */
+.main-container {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    background-color: #fcf8f8;
+}
+
+.top-bar,
+.nav,
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    height: 30px;
+}
+
+.jordon-logo {
+    height: 25px;
+}
+
+.top-bar-items,
+.navbar-items,
+.nav-extra {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-bar-items li,
+.navbar-items li {
+    list-style: none;
+}
+
+.top-bar-items li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 0.8em;
+    color: #000;
+    text-align: center;
+    font-size: 0.7rem;
+    border-right: 1.5px solid #000;
+}
+
+.top-bar-items li:last-child a{
+    border: none;
+}
+
+.nav {
+    height: 60px;
+}
+
+.logo {
+    height: 20px;
+}
+
+.navbar-items li a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.2em 1em;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s ease-out;
+}
+
+.navbar-items li a:hover {
+    border-bottom: 1px solid #707070;
+}
+
+.nav-extra {
+    justify-content: space-between;
+}
+
+.nav-extra input {
+    border: 1px solid #fcf8f8;
+    border-radius: 15px;
+    background-color: #fcf8f8;
+    padding: 0.4em 1em 0.4em 2.5em;
+    font-size: 1rem;
+    background-image: url('https://img.icons8.com/ios-filled/50/000000/search--v1.png');
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: 6px 6px;
+    width: 60%;
+}
+
+.nav-extra input:focus {
+    outline: none;
+}
+
+.nav-extra input:hover{
+    background-color: #f6e8e8af;
+}
+
+.stride {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
+.stride p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.main-img {
+    width: 50%;
+    height: 350px;
+}
+
+
