@@ -136,4 +136,44 @@
     height: 350px;
 }
 
+.main-text-section,
+.main-text,
+.info-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text-section {
+    margin: 2em 0;
+}
+
+.main-text h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: -0.2em;
+}
+
+.secondary-text {
+    margin: 1em 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+.info-buttons {
+    margin: 1em 0;
+    flex-direction: row;
+}
+
+.info-buttons button {
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 20px;
+    margin: 0 0.5em;
+}
+
 
